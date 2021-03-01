@@ -8,7 +8,7 @@ const ProductDescription = () => {
     <section>
       <Container>
         <Row>
-          <Col md="12">
+          <Col sm="12">
             <h2 id="text" data-aos="fade-down-right">
               Uganda's biggest sms platform{" "}
             </h2>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Card, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div id="contact" >
+    <div id="contact">
       <header class="contact">
         <h2 className="text-center">Contact US</h2>
       </header>
@@ -32,15 +32,15 @@ const Contact = () => {
             </MDBCol>
             <MDBCol md="6">
               <h2>Social Media</h2>
-              <MDBBtn primary social="fb">
-                <MDBIcon fab icon="facebook-f" className="pr-1" /> Facebook
-              </MDBBtn>
-              <MDBBtn social="tw">
-                <MDBIcon fab icon="twitter" className="pr-1" /> Twitter
-              </MDBBtn>
-              <MDBBtn social="ins">
-                <MDBIcon fab icon="instagram" className="pr-1" /> Instagram
-              </MDBBtn>
+              <a href="#!" className="fb-ic mr-3">
+                <MDBIcon size="lg" fab icon="facebook-f" />
+              </a>
+              <a href="#!" className="tw-ic mr-3">
+                <MDBIcon size="lg" fab icon="twitter" />
+              </a>
+              <a href="#!" className="ins-ic mr-3">
+                <MDBIcon size="lg" fab icon="instagram" />
+              </a>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
