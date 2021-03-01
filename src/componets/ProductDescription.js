@@ -20,11 +20,7 @@ const ProductDescription = () => {
             </h2>
           </Col>
         </Row>
-        <div className="angle">
-          <Link smooth to="#about">
-            <MDBIcon icon="angle-down" />
-          </Link>
-        </div>
+        
       </Container>
     </section>
   );
