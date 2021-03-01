@@ -19,7 +19,7 @@ import Productfeature from "./productfeature";
 const Home = () => {
   return (
     <div>
-      <header className="head_content" id="productdescription" >
+      <header className="head_content" >
         <ProductDescription />
       </header>
       <section >
