@@ -7,6 +7,7 @@ const About = () => {
       <section id="about">
         <Container>
           <h2 className="text-center">Product Features</h2>
+          <hr/>
           <Row>
             <Col md={12}>
               <iframe

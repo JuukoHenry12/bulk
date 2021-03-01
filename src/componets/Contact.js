@@ -6,6 +6,7 @@ const Contact = () => {
     <div id="contact">
       <header class="contact">
         <h2 className="text-center">Contact US</h2>
+        <hr/>
       </header>
       <section className="contact">
         <MDBContainer>

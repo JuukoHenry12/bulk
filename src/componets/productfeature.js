@@ -29,6 +29,7 @@ export default function ProductFeature() {
     <div className="feature">
       <Container>
         <h2 className="text-center"> Product Features</h2>
+        <hr/>
         <div className={classes.root}>
           <Accordion>
             <AccordionSummary

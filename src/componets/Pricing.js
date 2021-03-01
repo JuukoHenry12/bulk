@@ -5,6 +5,7 @@ const Pricing = () => {
         <div class="container">
           <div class="section-title" data-aos="fade-up">
             <h2 className="text-center">Prices</h2>
+            <hr/>
           </div>
 
           <div class="row" data-aos="fade-left">
