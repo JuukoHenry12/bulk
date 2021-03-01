@@ -24,7 +24,7 @@ const NavBar = () => {
             <Nav.Link>About us</Nav.Link>
           </Link>
           <Link smooth to="#product">
-            <Nav.Link>Features</Nav.Link>
+            <Nav.Link>Product Features</Nav.Link>
           </Link>
           <Link smooth to="#pricing">
             <Nav.Link>Pricing</Nav.Link>

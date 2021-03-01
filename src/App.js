@@ -38,9 +38,7 @@ function App() {
           <Route exact path="/pricing" component={Pricing}>
             <Pricing />
           </Route>
-          <Route exact path="/partner" component={Partners}>
-            <Partners />
-          </Route>
+          
           <Route exact path="/about" component={About}>
             <About />
           </Route>
