@@ -12,7 +12,7 @@ const NavBar = () => {
       sticky="top"
     >
       <Navbar.Brand href="#home">
-      BULK SMS SOLUTION'S
+      BULK SMS SOLUTION
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
