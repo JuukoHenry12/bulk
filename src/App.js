@@ -7,7 +7,6 @@ import ProductDescription from "./componets/ProductDescription";
 import About from "./componets/about";
 import Pricing from "./componets/Pricing";
 import Contact from "./componets/Contact";
-import Partners from "./componets/Partners";
 import Productfeature from "./componets/productfeature";
 import AOS from "aos";
 import "aos/dist/aos.css";

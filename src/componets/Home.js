@@ -14,7 +14,6 @@ import ProductDescription from "./ProductDescription";
 import About from "./about";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
-import Partners from "./Partners";
 import Productfeature from "./productfeature";
 const Home = () => {
   return (
