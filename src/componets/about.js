@@ -20,7 +20,7 @@ const About = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={5}>
+            <Col sm={12}>
               <h1 className="text-center">Download Business plan</h1>
               <div className="button text-center">
               <MDBBtn
