@@ -11,7 +11,7 @@ const About = () => {
             <Col md={12}>
               <iframe
                 width="100%"
-                height="450"
+                height="350"
                 src="https://www.youtube.com/embed/Q0azZ7n696Y"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
