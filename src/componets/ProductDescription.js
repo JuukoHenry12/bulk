@@ -18,7 +18,7 @@ const ProductDescription = () => {
             <h2 id="text" data-aos="fade-down-right">
               3 million high value airtel ugandan contacts
             </h2>
-           </Col>
+          </Col>
         </Row>
         <div className="angle">
           <Link smooth to="#about">
