@@ -35,8 +35,9 @@ html {
 }
 hr {
   background-color: #fff;
-  width: 300px;
+  width: 200px;
   border: solid;
+
 }
 .price {
   color: #fff;
@@ -48,6 +49,7 @@ hr {
   font-weight: bold;
   font-size: 30px;
   padding: 20px;
+  color: #f82249;
 }
 .button{
   list-style: none;
@@ -117,7 +119,6 @@ hr {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .pricing h3 {
@@ -126,13 +127,13 @@ hr {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #414141;
+  color: #0f0a0a;
   background: #f8f8f8;
 }
 
 .pricing h4 {
   font-size: 36px;
-  color: #1acc8d;
+  color: #0f0a0a;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -145,7 +146,7 @@ hr {
 }
 
 .pricing h4 span {
-  color: #bababa;
+  color: #0f0a0a;
   font-size: 16px;
   font-weight: 300;
 }
@@ -153,7 +154,7 @@ hr {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #0f0a0a;;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -164,7 +165,7 @@ hr {
 }
 
 .pricing ul i {
-  color: #1acc8d;
+  color: #040414;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -182,16 +183,16 @@ hr {
 }
 
 .pricing .btn-buy {
-  background: #1acc8d;
+  background: #040414;;
   display: inline-block;
-  padding: 8px 35px 10px 35px;
+  padding: 8px 15px 10px 35px;
   border-radius: 50px;
   color: #fff;
   transition: none;
   font-size: 14px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   transition: 0.3s;
 }
 
@@ -200,12 +201,12 @@ hr {
 }
 
 .pricing .featured h3 {
-  color: #fff;
-  background: #1acc8d;
+  color: #040414;
+  background:#fff;
 }
 
 .pricing .advanced {
-  width: 200px;
+  width: 90px;
   position: absolute;
   top: 18px;
   right: -68px;
@@ -213,8 +214,8 @@ hr {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1acc8d;
-  color: #fff;
+  background: #fff;
+  color: #040414;
 }
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
