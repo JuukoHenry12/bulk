@@ -7,7 +7,7 @@ const ProductDescription = () => {
           <Row>
             <Col sm="12">
               <h2 id="text" data-aos="fade-down-right">
-                Uganda's biggest sms platform  with over
+                Uganda's biggest sms platform with over
                 3 million high value airtel ugandan contacts
               </h2>
             </Col>
