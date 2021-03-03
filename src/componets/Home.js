@@ -30,9 +30,7 @@ const Home = () => {
       <section >
         <Productfeature/>
       </section>
-      
-    
-      <section id="#contact">
+      <section>
         <Contact />
       </section>
     </div>

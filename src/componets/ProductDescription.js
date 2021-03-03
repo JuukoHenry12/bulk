@@ -1,8 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MDBIcon } from "mdbreact";
-import { HashLink as Link } from "react-router-hash-link";
-import Typist from "react-typist";
-
 const ProductDescription = () => {
   return (
     <div>

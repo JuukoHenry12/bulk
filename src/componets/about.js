@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <section id="about">
         <Container>
-          <h2 className="text-center">Product Features</h2>
+          <h2 className="text-center"><span>About</span> us</h2>
           <hr/>
           <Row>
             <Col md={12}>
@@ -23,16 +23,15 @@ const About = () => {
           <Row>
             <Col sm={12}>
               <h1 className="text-center">Download Business plan</h1>
-              <div className="button text-center">
-              <MDBBtn
-              color="info"
-              >
+              <div className="text-center">
+             
               <DownloadLink
                 label="business plan"
                 filename="./files/myfile.txt"
                 exportFile={() => "My cached data"}
+                className="btn btn-warning"
               />
-              </MDBBtn>
+          
               </div>
 
             </Col>

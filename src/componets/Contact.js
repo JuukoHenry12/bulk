@@ -1,17 +1,16 @@
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from "mdbreact";
-import { Container, Row, Col, Form, Card, Button } from "react-bootstrap";
-
+import { Container, Row, Col } from "react-bootstrap";
+import { MDBIcon } from "mdbreact";
 const Contact = () => {
   return (
-    <div id="contact">
-      <header class="contact">
-        <h2 className="text-center">Contact US</h2>
-        <hr/>
-      </header>
-      <section className="contact">
-        <MDBContainer>
-          <MDBRow>
-            <MDBCol md="6">
+    <div id="contact" >
+      <section >
+        <Container>
+          <h2 className="text-center">
+             <span>Contact</span> us
+          </h2>
+          <hr />
+          <Row>
+            <Col md="6">
               <h2>
                 <span class="highlight">Get</span> in touch
               </h2>
@@ -30,9 +29,11 @@ const Contact = () => {
                   <a href="mailto:info@pahappa.com">juukohenry23@gmail.com</a>
                 </li>
               </ul>
-            </MDBCol>
-            <MDBCol md="6">
-              <h2>Social Media</h2>
+            </Col>
+            <Col md="6">
+              <h2>
+                <span class="highlight">Social </span>Media
+              </h2>
               <a href="#!" className="fb-ic mr-3">
                 <MDBIcon size="lg" fab icon="facebook-f" />
               </a>
@@ -42,9 +43,9 @@ const Contact = () => {
               <a href="#!" className="ins-ic mr-3">
                 <MDBIcon size="lg" fab icon="instagram" />
               </a>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </div>
   );
