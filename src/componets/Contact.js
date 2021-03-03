@@ -2,17 +2,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import { MDBIcon } from "mdbreact";
 const Contact = () => {
   return (
-    <div id="contact" >
-      <section >
+    <div id="contact">
+      <section>
         <Container>
           <h2 className="text-center" data-aos="fade-left">
-             <span>Contact</span> us
+            <span>Contact</span> us
           </h2>
           <hr />
           <Row>
             <Col md="6">
               <h2 data-aos="fade-left">
-                <span class="highlight" >Get</span> in touch
+                <span class="highlight">Get</span> in touch
               </h2>
               <ul class="ul-address">
                 <li>Kampala, Uganda</li>
@@ -31,7 +31,7 @@ const Contact = () => {
               </ul>
             </Col>
             <Col md="6">
-              <h2   data-aos="fade-left">
+              <h2>
                 <span class="highlight">Social </span>Media
               </h2>
               <a href="#!" className="fb-ic mr-3">
