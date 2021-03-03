@@ -6,13 +6,13 @@ const About = () => {
     <div>
       <section id="about">
         <Container>
-          <h2 className="text-center"><span>About</span> us</h2>
+          <h2 className="text-center"  data-aos="fade-left"><span>About</span> us</h2>
           <hr/>
           <Row>
-            <Col md={12}>
+            <Col>
               <iframe
                 width="100%"
-                height="450"
+                height="350"
                 src="https://www.youtube.com/embed/Q0azZ7n696Y"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

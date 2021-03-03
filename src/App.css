@@ -127,8 +127,8 @@ hr {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #0f0a0a;
-  background: #f8f8f8;
+  color: #fff;
+  background: #383737;
 }
 
 .pricing h4 {
@@ -201,8 +201,8 @@ hr {
 }
 
 .pricing .featured h3 {
-  color: #040414;
-  background:#fff;
+  color: #fff;
+  background:#383737;
 }
 
 .pricing .advanced {
