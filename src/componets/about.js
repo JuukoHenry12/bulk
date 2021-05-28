@@ -14,7 +14,7 @@ const About = () => {
             <iframe
               width="100%"
               height="350"
-              src="https://www.youtube.com/embed/Q0azZ7n696Y"
+              src="https://www.youtube.com/embed/2RocXKPPx4o"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
